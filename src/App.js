@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Dictaphone from "./components/Dictophone";
+import Dictaphone from "./components/annayang";
 
 function App() {
   return (
