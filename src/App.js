@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Dictaphone from "./components/annayang";
+import Dictaphone from "./components/websocket.js";
 
 function App() {
   return (
