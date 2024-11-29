@@ -33,13 +33,13 @@ const SpeechRecognitionApp = () => {
       ws.close();
     };
   }, []);
-  useEffect(() => {
-    if (socket) {
-      socket.onmessage = (event) => {
-        setTranscript((prev) => prev + " " + event.data);
-      };
-    }
-  }, []);
+  //   useEffect(() => {
+  //     if (socket) {
+  //       socket.onmessage = (event) => {
+  //         setTranscript((prev) => prev + " " + event.data);
+  //       };
+  //     }
+  //   }, []);
 
   //   const startRecording = async () => {
   //     try {
